@@ -1,0 +1,26 @@
+# Ignorer les dossiers de données et logs Docker
+db-data/
+logs/
+
+# Ignorer les fichiers générés et de dépendances
+application/vendor/
+application/node_modules/
+
+# Ignorer les fichiers de configuration spécifiques à l'environnement local
+application/.env
+application/.env.*
+
+# Ignorer les fichiers de configuration d'IDE
+.idea
+.vscode
+
+# Ignorer les caches et fichiers temporaires
+application/storage/*.key
+application/storage/logs
+application/storage/framework/cache/data
+application/storage/framework/sessions
+application/storage/framework/views
+
+# Ignorer les fichiers inutiles
+.DS_Store
+Thumbs.db
