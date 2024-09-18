@@ -35,7 +35,7 @@ Puis, dans Tinker, essayez une simple requête :
 ```bash
 DB::table('users')->get();
 ```
-
+* Si vous voulez consulter votre base graphiqument avec phpMyAdmin par : localhost:8080
 
 
  
